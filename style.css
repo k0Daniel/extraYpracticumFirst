@@ -34,7 +34,7 @@ body {
 	text-decoration-line: underline;
 }
 
-/* раздел со спящей девкой */
+/* girl sleep in the train */
 
 .lead {
 	width: 985px;
@@ -68,7 +68,7 @@ body {
 	margin: 10.87px 0 0 0;
 }
 
-/* что мы не видели */
+/* what we don't see */
 
 .intro {
 	width: 984px;
@@ -140,7 +140,7 @@ body {
 	font-weight: 400;
 }
 
-/* фотки */
+/* images */
 .photo__grid {
 	display: grid;
 	grid-template-columns: 284px 284px 284px 284px;
@@ -149,7 +149,7 @@ body {
 	justify-content: center;
 }
 
-/* места описание */
+/* palces description */
 
 .places {
 	width: 984px;
@@ -214,4 +214,122 @@ body {
 	padding-bottom: 36px;
 	display: flex;
 	justify-content: flex-start;
+}
+
+/* video */
+
+.video {
+	width: 1184px;
+	padding-top: 102px;
+	margin: 0 auto;
+}
+.video__title-content {
+	color: #fff;
+	text-align: center;
+	font-family: Inter;
+	font-size: 72px;
+	font-weight: 900;
+	line-height: 108.92%;
+}
+.video__subtitle-content {
+	color: #fff;
+	text-align: center;
+	font-family: Inter;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 145.227%;
+	margin: 48px 0 72px 0;
+}
+
+.video__content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.video__play {
+}
+
+.video__button {
+	position: absolute;
+	margin: 30px 0 0 30px;
+}
+.duration {
+	color: #fff;
+	font-family: Inter;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 108.92%; /* 13.07px */
+	letter-spacing: 3.6px;
+	position: absolute;
+	margin: 165px 0 0 30px;
+}
+.video__title {
+	color: #fff;
+	font-family: Inter;
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 108.92%; /* 39.211px */
+	position: absolute;
+	width: 322px;
+	margin: 189px 0 0 30px;
+}
+.video__subtitle {
+	color: #fff;
+	font-family: Inter;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 108.92%; /* 15.249px */
+	position: absolute;
+	margin: 280px 0 0 30px;
+}
+
+/* additional */
+
+.additional {
+	margin-top: 102px;
+}
+.additional__title {
+	color: #fff;
+	text-align: center;
+	font-family: Inter;
+	font-size: 72px;
+	font-weight: 900;
+	line-height: 90.767%; /* 65.352px */
+}
+.additional__subtitle {
+	color: #fff;
+	text-align: center;
+	font-family: Inter;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 145.227%; /* 34.855px */
+	margin: 48px 0 72px 0  ;
+}
+
+.additional__row {
+	display: grid;
+	grid-template-columns: 284px 284px 284px 284px;
+	gap: 16px;
+	justify-content: center;
+}
+
+.additional__card-title {
+	position: absolute;
+	width: 248px;
+	color: #fff;
+	font-family: Inter;
+	font-size: 27px;
+	font-weight: 900;
+	line-height: 108.92%; /* 29.409px */
+	margin: 30px 18px;
+}
+.additional__card-text {
+	position: absolute;
+	width: 248px;
+	color: #fff;
+	font-family: Inter;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 145.227%; /* 20.332px */
+	margin: 226px 0 0 18px;
 }
