@@ -437,6 +437,7 @@ body {
 .emblem__text {
 	display: flex;
 	justify-content: center;
+	text-align: center;
 	color: #ccc;
 	font-family: Inter;
 	font-size: 24px;
