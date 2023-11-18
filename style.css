@@ -1,3 +1,216 @@
-p {
-	font-family: 'Inter', sans-serif;
+* {
+	margin: 0;
+}
+
+/* font-family: 'Inter', sans-serif; заменить на это!!! */
+
+body {
+	background-color: #2a2c2f;
+}
+/* header */
+.header__wrapper {
+	width: 1184px;
+	display: flex;
+	padding: 30px 0px 48px 0;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+.header__logo {
+	width: 176.575px;
+	height: 52px;
+}
+.lang {
+	display: flex;
+	gap: 18px;
+	align-items: center;
+}
+.header__lang {
+	color: #fff;
+	text-align: right;
+	font-family: Inter;
+	font-size: 24px;
+	font-weight: 400;
+	text-decoration-line: underline;
+}
+
+/* раздел со спящей девкой */
+
+.lead {
+	width: 985px;
+	margin: 0 auto;
+}
+
+.title {
+	color: #fff;
+	text-align: center;
+	font-family: Inter;
+	font-size: 96px;
+	font-weight: 900;
+}
+
+.subtitle {
+	color: #fff;
+	text-align: center;
+	font-family: Inter;
+	font-size: 30px;
+	font-weight: 400;
+	margin: 48px 0 78px 0;
+}
+
+.lead__udner-text {
+	color: #fff;
+	font-family: Inter;
+	font-size: 10px;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	margin: 10.87px 0 0 0;
+}
+
+/* что мы не видели */
+
+.intro {
+	width: 984px;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+.intro__title {
+	color: #fff;
+	font-family: Inter;
+	font-size: 54px;
+	font-weight: 900;
+}
+.intro__subtitle {
+	color: #fff;
+	font-family: Inter;
+	font-size: 24px;
+	font-weight: 400;
+	padding: 45px 0 35px 0;
+}
+.intro__text__wrapper {
+	width: 683px;
+}
+.content__row {
+	display: flex;
+	gap: 18px;
+}
+.intro__text {
+	color: #fff;
+	font-family: Inter;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 169.432%;
+}
+.intro__text-right__up {
+	color: #fff;
+	font-family: Inter;
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 157.33%;
+}
+.intro__text-right_down {
+	color: #fff;
+	font-family: Inter;
+	font-size: 10px;
+	font-weight: 800;
+	line-height: 157.33%;
+}
+
+.intro__name-date {
+	color: #fff;
+	font-family: Inter;
+	font-size: 10px;
+	font-weight: 400;
+}
+
+.intro__info {
+	color: #fff;
+	font-family: Inter;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 157.33%;
+	padding-top: 35px;
+}
+
+.intro__info__numbers {
+	color: #fff;
+	font-family: Inter;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+/* фотки */
+.photo__grid {
+	display: grid;
+	grid-template-columns: 284px 284px 284px 284px;
+	gap: 18px;
+	margin: 92px 0;
+	justify-content: center;
+}
+
+/* места описание */
+
+.places {
+	width: 984px;
+	margin: 0 auto;
+}
+
+.place {
+}
+.place__header {
+	display: flex;
+}
+.places__title {
+	color: #fff;
+	font-family: Inter;
+	font-size: 72px;
+	font-weight: 900;
+	line-height: 90.767%;
+	width: 457px;
+	margin-bottom: 60px;
+}
+
+.place__url__heading {
+	color: #aaa;
+	font-family: Inter;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 169.432%;
+	letter-spacing: 2.4px;
+}
+.place__url-wrapper {
+	margin: 0 0 60px 43px;
+	height: 46px;
+	align-self: self-end;
+}
+.place__url {
+	color: #fff;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 169.432%;
+	text-decoration-line: underline;
+	margin-bottom: 16px;
+}
+.place__info {
+	display: flex;
+}
+.place__image {
+	width: 460px;
+	height: 460px;
+}
+.place__info-text {
+	color: #fff;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 169.432%;
+	margin-left: 40px;
+}
+
+.place__info-text-up {
+	padding-bottom: 36px;
+	display: flex;
+	justify-content: flex-start;
 }
