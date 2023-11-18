@@ -2,8 +2,6 @@
 	margin: 0;
 }
 
-/* font-family: 'Inter', sans-serif; заменить на это!!! */
-
 body {
 	background-color: #2a2c2f;
 }
@@ -28,7 +26,7 @@ body {
 .header__lang {
 	color: #fff;
 	text-align: right;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 24px;
 	font-weight: 400;
 	text-decoration-line: underline;
@@ -44,7 +42,7 @@ body {
 .title {
 	color: #fff;
 	text-align: center;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 96px;
 	font-weight: 900;
 }
@@ -52,7 +50,7 @@ body {
 .subtitle {
 	color: #fff;
 	text-align: center;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 30px;
 	font-weight: 400;
 	margin: 48px 0 78px 0;
@@ -60,7 +58,7 @@ body {
 
 .lead__udner-text {
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 10px;
 	font-weight: 400;
 	letter-spacing: 1.5px;
@@ -77,13 +75,13 @@ body {
 }
 .intro__title {
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 54px;
 	font-weight: 900;
 }
 .intro__subtitle {
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 24px;
 	font-weight: 400;
 	padding: 45px 0 35px 0;
@@ -97,21 +95,21 @@ body {
 }
 .intro__text {
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 169.432%;
 }
 .intro__text-right__up {
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 10px;
 	font-weight: 700;
 	line-height: 157.33%;
 }
 .intro__text-right_down {
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 10px;
 	font-weight: 800;
 	line-height: 157.33%;
@@ -119,14 +117,14 @@ body {
 
 .intro__name-date {
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 10px;
 	font-weight: 400;
 }
 
 .intro__info {
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 13px;
 	font-weight: 700;
 	line-height: 157.33%;
@@ -135,7 +133,7 @@ body {
 
 .intro__info__numbers {
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 }
@@ -164,7 +162,7 @@ body {
 }
 .places__title {
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 72px;
 	font-weight: 900;
 	line-height: 90.767%;
@@ -174,7 +172,7 @@ body {
 
 .place__url__heading {
 	color: #aaa;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 169.432%;
@@ -187,7 +185,7 @@ body {
 }
 .place__url {
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 169.432%;
@@ -203,7 +201,7 @@ body {
 }
 .place__info-text {
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 169.432%;
@@ -226,7 +224,7 @@ body {
 .video__title-content {
 	color: #fff;
 	text-align: center;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 72px;
 	font-weight: 900;
 	line-height: 108.92%;
@@ -234,7 +232,7 @@ body {
 .video__subtitle-content {
 	color: #fff;
 	text-align: center;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 24px;
 	font-weight: 400;
 	line-height: 145.227%;
@@ -255,7 +253,7 @@ body {
 }
 .duration {
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 12px;
 	font-weight: 500;
 	line-height: 108.92%;
@@ -265,7 +263,7 @@ body {
 }
 .video__title {
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 36px;
 	font-weight: 900;
 	line-height: 108.92%;
@@ -275,7 +273,7 @@ body {
 }
 .video__subtitle {
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 108.92%;
@@ -291,7 +289,7 @@ body {
 .additional__title {
 	color: #fff;
 	text-align: center;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 72px;
 	font-weight: 900;
 	line-height: 90.767%;
@@ -299,7 +297,7 @@ body {
 .additional__subtitle {
 	color: #fff;
 	text-align: center;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 24px;
 	font-weight: 400;
 	line-height: 145.227%;
@@ -317,7 +315,7 @@ body {
 	position: absolute;
 	width: 248px;
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 27px;
 	font-weight: 900;
 	line-height: 108.92%;
@@ -327,7 +325,7 @@ body {
 	position: absolute;
 	width: 248px;
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 145.227%;
@@ -339,7 +337,7 @@ body {
 .comments__title {
 	color: #fff;
 	text-align: center;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 72px;
 	font-weight: 900;
 	line-height: 90.767%;
@@ -348,7 +346,7 @@ body {
 .comments__subtitle {
 	color: #fff;
 	text-align: center;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 24px;
 	font-weight: 400;
 	line-height: 145.227%;
@@ -369,7 +367,7 @@ body {
 }
 .quote {
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 169.432%;
@@ -377,7 +375,7 @@ body {
 }
 .quote__author {
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 14px;
 	font-weight: 900;
 	line-height: 169.432%;
@@ -396,7 +394,7 @@ body {
 	position: absolute;
 	color: #fffdfd;
 	text-align: center;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 72px;
 	font-weight: 900;
 	line-height: 108.92%;
@@ -406,7 +404,7 @@ body {
 	position: absolute;
 	color: #fff;
 	text-align: center;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 145.227%;
@@ -422,7 +420,7 @@ body {
 
 .emblem__title {
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 42px;
 	font-weight: 900;
 	line-height: 108.92%;
@@ -439,7 +437,7 @@ body {
 	justify-content: center;
 	text-align: center;
 	color: #ccc;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 108.92%;
@@ -454,14 +452,14 @@ body {
 }
 .barentsburg__title {
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 42px;
 	font-weight: 900;
 	line-height: 145.227%;
 }
 .barentsburg__subtitle {
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 42px;
 	font-weight: 400;
 	line-height: 145.227%;
@@ -474,7 +472,7 @@ body {
 .barentsburg__text {
 	width: 380px;
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 169.432%;
@@ -484,7 +482,7 @@ body {
 }
 .barentsburg__url-header {
 	color: #aaa;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 169.432%;
@@ -493,7 +491,7 @@ body {
 }
 .barentsburg__url {
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 169.432%;
@@ -515,7 +513,7 @@ body {
 }
 .footer__link {
 	color: #fff;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 24px;
 	font-weight: 400;
 	line-height: 169.432%;
@@ -524,7 +522,7 @@ body {
 .footer__copyright {
 	color: #fff;
 	text-align: right;
-	font-family: Inter;
+	font-family: 'Inter', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 145.227%;
