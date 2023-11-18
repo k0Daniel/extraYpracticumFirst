@@ -157,6 +157,7 @@ body {
 }
 
 .place {
+	margin-top: 72px;
 }
 .place__header {
 	display: flex;
