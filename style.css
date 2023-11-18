@@ -258,7 +258,7 @@ body {
 	font-family: Inter;
 	font-size: 12px;
 	font-weight: 500;
-	line-height: 108.92%; /* 13.07px */
+	line-height: 108.92%;
 	letter-spacing: 3.6px;
 	position: absolute;
 	margin: 165px 0 0 30px;
@@ -268,7 +268,7 @@ body {
 	font-family: Inter;
 	font-size: 36px;
 	font-weight: 900;
-	line-height: 108.92%; /* 39.211px */
+	line-height: 108.92%;
 	position: absolute;
 	width: 322px;
 	margin: 189px 0 0 30px;
@@ -278,7 +278,7 @@ body {
 	font-family: Inter;
 	font-size: 14px;
 	font-weight: 400;
-	line-height: 108.92%; /* 15.249px */
+	line-height: 108.92%;
 	position: absolute;
 	margin: 280px 0 0 30px;
 }
@@ -294,7 +294,7 @@ body {
 	font-family: Inter;
 	font-size: 72px;
 	font-weight: 900;
-	line-height: 90.767%; /* 65.352px */
+	line-height: 90.767%;
 }
 .additional__subtitle {
 	color: #fff;
@@ -302,7 +302,7 @@ body {
 	font-family: Inter;
 	font-size: 24px;
 	font-weight: 400;
-	line-height: 145.227%; /* 34.855px */
+	line-height: 145.227%;
 	margin: 48px 0 72px 0;
 }
 
@@ -320,7 +320,7 @@ body {
 	font-family: Inter;
 	font-size: 27px;
 	font-weight: 900;
-	line-height: 108.92%; /* 29.409px */
+	line-height: 108.92%;
 	margin: 30px 18px;
 }
 .additional__card-text {
@@ -330,7 +330,7 @@ body {
 	font-family: Inter;
 	font-size: 14px;
 	font-weight: 400;
-	line-height: 145.227%; /* 20.332px */
+	line-height: 145.227%;
 	margin: 226px 0 0 18px;
 }
 
@@ -342,7 +342,7 @@ body {
 	font-family: Inter;
 	font-size: 72px;
 	font-weight: 900;
-	line-height: 90.767%; /* 65.352px */
+	line-height: 90.767%;
 }
 
 .comments__subtitle {
@@ -351,7 +351,7 @@ body {
 	font-family: Inter;
 	font-size: 24px;
 	font-weight: 400;
-	line-height: 145.227%; /* 34.855px */
+	line-height: 145.227%;
 	margin: 48px 0 71px 0;
 }
 
@@ -372,7 +372,7 @@ body {
 	font-family: Inter;
 	font-size: 14px;
 	font-weight: 400;
-	line-height: 169.432%; /* 23.72px */
+	line-height: 169.432%;
 	display: flex;
 }
 .quote__author {
@@ -380,7 +380,7 @@ body {
 	font-family: Inter;
 	font-size: 14px;
 	font-weight: 900;
-	line-height: 169.432%; /* 23.72px */
+	line-height: 169.432%;
 	margin-top: 24px;
 }
 
@@ -399,7 +399,7 @@ body {
 	font-family: Inter;
 	font-size: 72px;
 	font-weight: 900;
-	line-height: 108.92%; /* 78.423px */
+	line-height: 108.92%;
 	margin: 274px 0 0 0;
 }
 .cover__subtitle {
@@ -409,7 +409,7 @@ body {
 	font-family: Inter;
 	font-size: 18px;
 	font-weight: 400;
-	line-height: 145.227%; /* 26.141px */
+	line-height: 145.227%;
 	margin: 477px 0 0 0;
 }
 
@@ -425,7 +425,7 @@ body {
 	font-family: Inter;
 	font-size: 42px;
 	font-weight: 900;
-	line-height: 108.92%; /* 45.747px */
+	line-height: 108.92%;
 }
 
 .emblem__container {
@@ -442,6 +442,90 @@ body {
 	font-family: Inter;
 	font-size: 24px;
 	font-weight: 700;
-	line-height: 108.92%; /* 26.141px */
+	line-height: 108.92%;
 	margin-top: 35px;
+}
+
+/* map near footer */
+
+.barentsburg {
+	width: 1184px;
+	margin: 85px auto 0;
+}
+.barentsburg__title {
+	color: #fff;
+	font-family: Inter;
+	font-size: 42px;
+	font-weight: 900;
+	line-height: 145.227%;
+}
+.barentsburg__subtitle {
+	color: #fff;
+	font-family: Inter;
+	font-size: 42px;
+	font-weight: 400;
+	line-height: 145.227%;
+	margin: 20px 0 48px 0;
+}
+.barentsburg__under-container {
+	margin-top: 48px;
+	display: flex;
+}
+.barentsburg__text {
+	width: 380px;
+	color: #fff;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 169.432%;
+}
+.barentsburg__website {
+	margin-left: 120px;
+}
+.barentsburg__url-header {
+	color: #aaa;
+	font-family: Inter;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 169.432%;
+	letter-spacing: 2.4px;
+	margin-bottom: 12px;
+}
+.barentsburg__url {
+	color: #fff;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 169.432%;
+	text-decoration-line: underline;
+}
+
+/* footer */
+.footer {
+	margin: 160px auto 48px auto;
+	width: 1184px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer__links {
+	display: flex;
+	gap: 18px;
+	list-style-type: none;
+	padding: 0;
+}
+.footer__link {
+	color: #fff;
+	font-family: Inter;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 169.432%;
+	text-decoration: none;
+}
+.footer__copyright {
+	color: #fff;
+	text-align: right;
+	font-family: Inter;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 145.227%;
 }
