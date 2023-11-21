@@ -40,11 +40,13 @@ body {
 }
 
 .title {
+	width: 782px;
 	color: #fff;
 	text-align: center;
 	font-family: 'Inter', sans-serif;
 	font-size: 96px;
 	font-weight: 900;
+	margin: 0 auto;
 }
 
 .subtitle {
@@ -55,7 +57,9 @@ body {
 	font-weight: 400;
 	margin: 48px 0 78px 0;
 }
-
+.img__girl-in-train {
+	width: 984px;
+}
 .lead__udner-text {
 	color: #fff;
 	font-family: 'Inter', sans-serif;
@@ -229,6 +233,10 @@ body {
 	font-weight: 900;
 	line-height: 108.92%;
 }
+.video__player-img {
+	width: 583px;
+	height: 323px;
+}
 .video__subtitle-content {
 	color: #fff;
 	text-align: center;
@@ -307,7 +315,10 @@ body {
 	gap: 16px;
 	justify-content: center;
 }
-
+.additional__img {
+	width: 284px;
+	height: 330px;
+}
 .additional__card-title {
 	position: absolute;
 	width: 248px;
@@ -380,7 +391,9 @@ body {
 }
 
 /* cover with trains */
-
+.img__to-Baikal {
+	width: 1184px;
+}
 .cover {
 	margin: 102px 0 82px 0;
 	display: flex;
@@ -428,7 +441,10 @@ body {
 	justify-content: space-between;
 	margin-top: 82px;
 }
-
+.emblem__img {
+	width: 180.134px;
+	height: 226px;
+}
 .emblem__text {
 	display: flex;
 	justify-content: center;
@@ -453,6 +469,7 @@ body {
 	font-size: 42px;
 	font-weight: 900;
 	line-height: 145.227%;
+	margin-left: 48px;
 }
 .barentsburg__subtitle {
 	color: #fff;
@@ -460,11 +477,14 @@ body {
 	font-size: 42px;
 	font-weight: 400;
 	line-height: 145.227%;
-	margin: 20px 0 48px 0;
+	margin: 20px 0 48px 48px;
+}
+.map {
+	width: 1184px;
 }
 .barentsburg__under-container {
-	margin-top: 48px;
 	display: flex;
+	margin: 48px 0 0 50px;
 }
 .barentsburg__text {
 	width: 380px;
@@ -524,10 +544,110 @@ body {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 145.227%;
-	    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 :root {
 	scroll-behavior: smooth;
+}
+
+/* adaptive 1280px */
+
+@media screen and (max-width: 1024px) {
+	.header__wrapper {
+		width: 928px;
+	}
+	.title {
+		width: 928px;
+	}
+	.img__girl-in-train {
+		width: 928px;
+	}
+	.lead {
+		width: 928px;
+	}
+	.intro {
+		width: 928px;
+	}
+	.photo__grid {
+		grid-template-columns: 300px 300px 300px;
+	}
+	.place__image {
+		width: 440px;
+		height: 440px;
+	}
+	.places {
+		width: 928px;
+	}
+	.video {
+		width: 928px;
+	}
+	.video__player-img {
+		width: 456px;
+		height: 288px;
+	}
+	.duration {
+		margin-top: 125px;
+	}
+	.video__title {
+		margin-top: 149px;
+	}
+	.video__subtitle {
+		margin-top: 240px;
+	}
+	.additional {
+		width: 991px;
+	}
+	.additional__img {
+		width: 240px;
+		height: 280px;
+	}
+	.additional__row {
+		grid-template-columns: 240px 240px 240px 240px;
+		gap: 10px;
+	}
+	.additional__card-title {
+		margin: 24px 16px 0 16px;
+		width: 208px;
+		word-break: break-all;
+	}
+	.additional__card-text {
+		width: 210px;
+		margin: 184px 14px 16px 16px;
+	}
+	.comment {
+		width: 928px;
+	}
+	.quote {
+		width: 296px;
+	}
+	.img__to-Baikal {
+		width: 1024px;
+	}
+	.emblem__wrapper {
+		width: 945.411px;
+	}
+	.emblem__img {
+		width: 159.411px;
+		height: 200px;
+	}
+	.barentsburg {
+		width: 1024px;
+	}
+	.map {
+		width: 1024px;
+	}
+	.barentsburg__title {
+		margin-left: 49px;
+	}
+	.barentsburg__subtitle {
+		margin-left: 49px;
+	}
+	.barentsburg__under-container {
+		margin-left: 51px;
+	}
+	.footer {
+		width: 929px;
+	}
 }
