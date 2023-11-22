@@ -143,6 +143,10 @@ body {
 }
 
 /* images */
+.grid__img {
+	width: 284px;
+	height: 188px;
+}
 .photo__grid {
 	display: grid;
 	grid-template-columns: 284px 284px 284px 284px;
@@ -646,6 +650,98 @@ body {
 	}
 	.barentsburg__under-container {
 		margin-left: 51px;
+	}
+	.footer {
+		width: 929px;
+	}
+}
+
+/* adaptive 1024px */
+
+@media screen and (max-width: 1024px) {
+	.header__wrapper {
+		width: 928px;
+	}
+	.lead {
+		width: 928px;
+	}
+	.title {
+		width: 928px;
+	}
+	.subtitle {
+		width: 928px;
+	}
+	.img__girl-in-train {
+		width: 928px;
+		height: 554px;
+	}
+	.intro {
+		width: 928px;
+	}
+	.photo__grid {
+		margin: 92px auto;
+		width: 928px;
+		grid-template-columns: 300px 300px 300px;
+		gap: 14px;
+	}
+	.grid__img {
+		width: 300px;
+		height: 200px;
+	}
+	.places {
+		width: 928px;
+	}
+	.place__image {
+		width: 440px;
+		height: 440px;
+	}
+	.video {
+		width: 928px;
+	}
+	.video__player-img {
+		width: 456px;
+		height: 288px;
+	}
+	.video__content {
+		width: 928px;
+	}
+	.additional {
+		width: 991px;
+		margin: 102px auto;
+	}
+	.additional__img {
+		width: 240px;
+		height: 280px;
+		grid-template-columns: 240px 240px 240px 240px;
+		gap: 10px;
+	}
+	.additional__card-text {
+		width: 210px;
+		margin-top: 160px;
+	}
+	.additional__card-title {
+		width: 208px;
+	}
+	.comments__title {
+		width: 928px;
+	}
+	.comments__container {
+		width: 925px;
+		margin: 0 auto;
+	}
+	.cover {
+		width: 1024px;
+		height: 590px;
+	}
+	.emblem__wrapper {
+		width: 945.411px;
+	}
+	.barentsburg {
+		width: 1024px;
+	}
+	.map {
+		width: 1024px;
+		height: 464px;
 	}
 	.footer {
 		width: 929px;
