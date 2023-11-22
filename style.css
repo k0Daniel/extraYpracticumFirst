@@ -438,6 +438,7 @@ body {
 	font-size: 42px;
 	font-weight: 900;
 	line-height: 108.92%;
+	width: 443px;
 }
 
 .emblem__container {
@@ -743,7 +744,191 @@ body {
 		width: 1024px;
 		height: 464px;
 	}
+	.barentsburg__website {
+		margin-left: 90px;
+	}
 	.footer {
 		width: 929px;
+	}
+}
+
+/* adaptive 768px */
+@media screen and (max-width: 768px) {
+	.header__wrapper {
+		width: 720px;
+	}
+	.lead {
+		width: 768px;
+	}
+	.title {
+		width: 720px;
+	}
+	.subtitle {
+		width: 720px;
+	}
+	.img__girl-in-train {
+		width: 768px;
+		height: 420px;
+	}
+	.lead__udner-text {
+		margin-left: 24px;
+	}
+	.intro {
+		width: 720px;
+	}
+	.content__row {
+		display: table;
+	}
+	.intro__text-right__up {
+		margin-top: 39px;
+	}
+	.grid__img {
+		width: 352px;
+		height: 234px;
+	}
+	.photo__grid {
+		grid-template-columns: 352px 352px;
+		margin: 92px auto;
+		width: 720px;
+		gap: 16px;
+	}
+	.places {
+		width: 720px;
+	}
+	.places__title {
+		font-size: 42px;
+		line-height: 108.92%;
+	}
+	.place__info-text {
+		font-size: 16px;
+	}
+	.video {
+		width: 720px;
+	}
+	.video__title-content {
+		font-size: 42px;
+	}
+	.video__subtitle-content {
+		font-size: 24px;
+		margin: 24px 0 56px 0;
+	}
+	.video__content {
+		width: 720px;
+	}
+	.video__player-img {
+		width: 352px;
+		height: 200px;
+	}
+	.video__button {
+		margin: 24px 0 0 24px;
+	}
+	.duration {
+		margin: 82px 0 0 24px;
+	}
+	.video__title {
+		font-size: 24px;
+		margin: 102px 0 0 24px;
+	}
+	.video__subtitle {
+		font-size: 14px;
+		margin: 160px 0 0 24px;
+	}
+	.additional {
+		width: 640px;
+	}
+	.additional__title {
+		font-size: 42px;
+		margin: 0 auto;
+	}
+	.additional__subtitle {
+		font-size: 24px;
+		margin: 24px 0 56px 0;
+	}
+	.additional__row {
+		grid-template-columns: 284px 284px;
+		gap: 16px;
+	}
+	.additional__img {
+		width: 284px;
+		height: 330px;
+	}
+	.comments__title {
+		margin: 0 auto;
+		width: 660px;
+		font-size: 42px;
+		line-height: 108.92%;
+	}
+	.comments__subtitle {
+		width: 640px;
+		font-size: 24px;
+		margin: 24px auto 66px auto;
+	}
+	.comments__container {
+		width: 344px;
+		display: flex;
+		flex-direction: column;
+		gap: 48px;
+	}
+	.comment {
+		width: 344px;
+	}
+	.comment__ava {
+		display: flex;
+		margin: 0 auto;
+	}
+	.quote {
+		margin: 0 auto;
+	}
+	.quote__author {
+		display: flex;
+		justify-content: center;
+	}
+	.cover {
+		width: 768px;
+		height: 500px;
+	}
+	.img__to-Baikal {
+		width: 768px;
+		height: 500px;
+	}
+	.cover__title {
+		width: 720px;
+		margin-top: 126px;
+	}
+	.cover__subtitle {
+		width: 382px;
+		margin-top: 380px;
+	}
+	.emblem__wrapper {
+		width: 720px;
+	}
+	.emblem__title {
+		margin-left: 24px;
+		width: 658px;
+	}
+	.emblem__container {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 57px;
+		margin-left: 35px;
+	}
+	.emblem__img {
+		width: 180.134px;
+	}
+	.barentsburg {
+		width: 768px;
+	}
+	.map {
+		width: 768px;
+		height: 362px;
+	}
+	.barentsburg__website {
+		margin-left: 24px;
+	}
+	.footer {
+		max-width: 722px;
+	}
+	.footer__link {
+		font-size: 16px;
 	}
 }
