@@ -867,7 +867,7 @@ body {
 		width: 344px;
 		display: flex;
 		flex-direction: column;
-		gap: 48px;
+		gap: 6px;
 	}
 	.comment {
 		width: 344px;
@@ -930,5 +930,292 @@ body {
 	}
 	.footer__link {
 		font-size: 16px;
+	}
+}
+
+/* adaptive 425px */
+@media screen and (max-width: 425px) {
+	.header__wrapper {
+		width: 343px;
+	}
+	.lead {
+		width: 375px;
+	}
+	.title {
+		width: 343px;
+		font-size: 40px;
+	}
+	.subtitle {
+		width: 375px;
+		font-size: 16px;
+	}
+	.img__girl-in-train {
+		width: 375px;
+		height: 211px;
+	}
+	.lead__udner-text {
+		margin-left: 16px;
+	}
+	.intro {
+		width: 343px;
+	}
+	.intro__title {
+		width: 343px;
+		font-size: 32px;
+	}
+	.intro__subtitle {
+		width: 343px;
+		padding: 23px 0;
+	}
+	.intro__text__wrapper {
+		width: 343px;
+	}
+	.intro__text {
+		width: 343px;
+		font-size: 16px;
+	}
+	.content__row {
+		display: table;
+		width: 343px;
+	}
+	.intro__text-right__up {
+		margin-top: 32px;
+	}
+	.intro__info {
+		padding-top: 32px;
+		font-size: 12px;
+	}
+	.grid__img {
+		width: 352px;
+		height: 234px;
+	}
+	.photo__grid {
+		grid-template-columns: 343px;
+		margin: 64px auto;
+		width: 343px;
+		gap: 15px;
+	}
+	.places {
+		width: 375px;
+	}
+	.place {
+		margin-top: 48px;
+	}
+	.place__header {
+		display: table;
+	}
+	.places__title {
+		width: 343px;
+		font-size: 32px;
+		line-height: 108.92%;
+		margin: 0 16px 16px 16px;
+	}
+	.place__url-wrapper {
+		margin: 0 16px 32px 16px;
+	}
+	.place__url {
+		margin-top: 8px;
+	}
+	.place__image {
+		width: 375px;
+		height: 375px;
+	}
+	.place__info {
+		display: table;
+	}
+	.place__info p {
+		margin: 0 auto;
+	}
+	.place__info-text {
+		font-size: 16px;
+		width: 343px;
+		margin: 24px auto 0 auto;
+	}
+
+	.video {
+		width: 343px;
+	}
+	.video__title-content {
+		font-size: 32px;
+		width: 343px;
+	}
+	.video__subtitle-content {
+		font-size: 16px;
+		width: 343px;
+		margin: 16px 0 32px 0;
+	}
+	.video__content {
+		width: 343px;
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+	}
+	.video__player-img {
+		width: 343px;
+		height: 200px;
+	}
+	.video__button {
+		margin: 24px 0 0 24px;
+	}
+	.duration {
+		margin: 82px 0 0 24px;
+	}
+	.video__title {
+		font-size: 24px;
+		margin: 102px 0 0 24px;
+	}
+	.video__subtitle {
+		font-size: 14px;
+		margin: 160px 0 0 24px;
+	}
+	.additional {
+		width: 284px;
+		margin: 64px auto 64px auto;
+	}
+	.additional__title {
+		width: 284px;
+		font-size: 32px;
+		margin: 0 auto;
+	}
+	.additional__subtitle {
+		width: 284px;
+		font-size: 16px;
+		margin: 24px 0 56px 0;
+	}
+	.additional__row {
+		grid-template-columns: 284px;
+		gap: 24px;
+	}
+	.additional__card-title {
+		width: 248px;
+		margin: 30px 18px 0 18px;
+	}
+	.additional__card-text {
+		width: 248px;
+		margin: 226px 18px 30px 18px;
+	}
+	.additional__img {
+		width: 284px;
+		height: 330px;
+	}
+	.comments__title {
+		margin: 0 auto;
+		width: 343px;
+		font-size: 32px;
+		line-height: 108.92%;
+	}
+	.comments__subtitle {
+		width: 343px;
+		font-size: 16px;
+		margin: 16px auto 42px auto;
+	}
+	.comments__container {
+		width: 344px;
+		display: flex;
+		flex-direction: column;
+		gap: 6px;
+	}
+	.comment {
+		width: 344px;
+	}
+	.comment__ava {
+		display: flex;
+		margin: 0 auto;
+	}
+	.quote {
+		margin: 0 auto;
+	}
+	.quote__author {
+		display: flex;
+		justify-content: center;
+	}
+	.cover {
+		width: 375px;
+		height: 272px;
+	}
+	.img__to-Baikal {
+		width: 375px;
+		height: 272px;
+	}
+	.cover__title {
+		width: 343px;
+		margin-top: 103px;
+		font-size: 32px;
+	}
+	.cover__subtitle {
+		width: 343px;
+		margin-top: 191px;
+		font-size: 14px;
+	}
+	.emblem__wrapper {
+		width: 343px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.emblem__title {
+		margin: 0 0 16px 0;
+		word-wrap: break-word;
+		width: 343px;
+		font-size: 24px;
+		justify-content: center;
+	}
+	.emblem__container {
+		display: grid;
+		grid-template-columns: 186px;
+		gap: 56px;
+		margin: 0 auto;
+	}
+	.emblem__img {
+		width: 186px;
+		height: 226px;
+	}
+	.barentsburg {
+		width: 375px;
+	}
+	.map {
+		width: 375px;
+		height: 184px;
+	}
+	.barentsburg__under-container {
+		display: flex;
+		flex-direction: column;
+		margin: 24px 16px 0 16px;
+	}
+	.barentsburg__website {
+		margin: 0;
+	}
+	.barentsburg__url-header {
+		margin-top: 32px;
+		width: 343px;
+		font-size: 12px;
+	}
+	.barentsburg__url {
+		width: 343px;
+		font-size: 18px;
+	}
+	.barentsburg__text {
+		width: 343px;
+		font-size: 18px;
+	}
+	.footer {
+		max-width: 282px;
+		display: flex;
+		flex-direction: column;
+		margin: 48px 0 0 16px;
+		padding-bottom: 24px;
+	}
+	.footer__links {
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+	}
+	.footer__link {
+		font-size: 24px;
+	}
+	.footer__copyright {
+		font-size: 14px;
+		margin-top: 48px;
 	}
 }
