@@ -1,6 +1,9 @@
 * {
 	margin: 0;
 }
+:root {
+	scroll-behavior: smooth;
+}
 
 body {
 	background-color: #2a2c2f;
@@ -13,7 +16,6 @@ body {
 	margin: 0 auto;
 	justify-content: space-between;
 }
-
 .header__logo {
 	width: 176.575px;
 	height: 52px;
@@ -33,12 +35,10 @@ body {
 }
 
 /* girl sleep in the train */
-
 .lead {
 	width: 985px;
 	margin: 0 auto;
 }
-
 .title {
 	width: 782px;
 	color: #fff;
@@ -48,7 +48,6 @@ body {
 	font-weight: 900;
 	margin: 0 auto;
 }
-
 .subtitle {
 	color: #fff;
 	text-align: center;
@@ -71,7 +70,6 @@ body {
 }
 
 /* what we don't see */
-
 .intro {
 	width: 984px;
 	margin: 0 auto;
@@ -118,14 +116,12 @@ body {
 	font-weight: 800;
 	line-height: 157.33%;
 }
-
 .intro__name-date {
 	color: #fff;
 	font-family: 'Inter', sans-serif;
 	font-size: 10px;
 	font-weight: 400;
 }
-
 .intro__info {
 	color: #fff;
 	font-family: 'Inter', sans-serif;
@@ -134,14 +130,12 @@ body {
 	line-height: 157.33%;
 	padding-top: 35px;
 }
-
 .intro__info__numbers {
 	color: #fff;
 	font-family: 'Inter', sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 }
-
 /* images */
 .grid__img {
 	width: 284px;
@@ -156,12 +150,10 @@ body {
 }
 
 /* palces description */
-
 .places {
 	width: 984px;
 	margin: 0 auto;
 }
-
 .place {
 	margin-top: 72px;
 }
@@ -177,7 +169,6 @@ body {
 	width: 457px;
 	margin-bottom: 60px;
 }
-
 .place__url__heading {
 	color: #aaa;
 	font-family: 'Inter', sans-serif;
@@ -223,7 +214,6 @@ body {
 }
 
 /* video */
-
 .video {
 	width: 1184px;
 	padding-top: 102px;
@@ -250,12 +240,10 @@ body {
 	line-height: 145.227%;
 	margin: 48px 0 72px 0;
 }
-
 .video__content {
 	display: flex;
 	justify-content: space-between;
 }
-
 .video__button {
 	position: absolute;
 	margin: 30px 0 0 30px;
@@ -312,7 +300,6 @@ body {
 	line-height: 145.227%;
 	margin: 48px 0 72px 0;
 }
-
 .additional__row {
 	display: grid;
 	grid-template-columns: 284px 284px 284px 284px;
@@ -345,7 +332,6 @@ body {
 }
 
 /* comments */
-
 .comments__title {
 	color: #fff;
 	text-align: center;
@@ -354,7 +340,6 @@ body {
 	font-weight: 900;
 	line-height: 90.767%;
 }
-
 .comments__subtitle {
 	color: #fff;
 	text-align: center;
@@ -364,13 +349,11 @@ body {
 	line-height: 145.227%;
 	margin: 48px 0 71px 0;
 }
-
 .comments__container {
 	display: flex;
 	justify-content: center;
 	gap: 19px;
 }
-
 .comment {
 	width: 382px;
 }
@@ -403,7 +386,6 @@ body {
 	display: flex;
 	justify-content: center;
 }
-
 .cover__title {
 	position: absolute;
 	color: #fff;
@@ -426,12 +408,10 @@ body {
 }
 
 /* emblem */
-
 .emblem__wrapper {
 	width: 1184px;
 	margin: 0 auto;
 }
-
 .emblem__title {
 	color: #fff;
 	font-family: 'Inter', sans-serif;
@@ -440,7 +420,6 @@ body {
 	line-height: 108.92%;
 	width: 443px;
 }
-
 .emblem__container {
 	display: flex;
 	justify-content: space-between;
@@ -463,7 +442,6 @@ body {
 }
 
 /* map near footer */
-
 .barentsburg {
 	width: 1184px;
 	margin: 85px auto 0;
@@ -553,12 +531,7 @@ body {
 	align-items: center;
 }
 
-:root {
-	scroll-behavior: smooth;
-}
-
 /* adaptive 1280px */
-
 @media screen and (max-width: 1024px) {
 	.header__wrapper {
 		width: 928px;
@@ -658,7 +631,6 @@ body {
 }
 
 /* adaptive 1024px */
-
 @media screen and (max-width: 1024px) {
 	.header__wrapper {
 		width: 928px;
@@ -948,6 +920,7 @@ body {
 	.subtitle {
 		width: 375px;
 		font-size: 16px;
+		margin: 8px 0 31px 0;
 	}
 	.img__girl-in-train {
 		width: 375px;
@@ -958,6 +931,7 @@ body {
 	}
 	.intro {
 		width: 343px;
+		padding-top: 64px;
 	}
 	.intro__title {
 		width: 343px;
@@ -1031,7 +1005,6 @@ body {
 		width: 343px;
 		margin: 24px auto 0 auto;
 	}
-
 	.video {
 		width: 343px;
 	}
@@ -1155,7 +1128,8 @@ body {
 		justify-content: center;
 	}
 	.emblem__title {
-		margin: 0 0 16px 0;
+		margin: 0 0 32px 0;
+		text-align: center;
 		word-wrap: break-word;
 		width: 343px;
 		font-size: 24px;
@@ -1173,6 +1147,16 @@ body {
 	}
 	.barentsburg {
 		width: 375px;
+	}
+	.barentsburg__title {
+		width: 343px;
+		font-size: 24px;
+		margin-left: 16px;
+	}
+	.barentsburg__subtitle {
+		width: 343px;
+		font-size: 16px;
+		margin: 18px 0 22px 16px;
 	}
 	.map {
 		width: 375px;
@@ -1197,6 +1181,315 @@ body {
 	}
 	.barentsburg__text {
 		width: 343px;
+		font-size: 18px;
+	}
+	.footer {
+		max-width: 282px;
+		display: flex;
+		flex-direction: column;
+		margin: 48px 0 0 16px;
+		padding-bottom: 24px;
+	}
+	.footer__links {
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+	}
+	.footer__link {
+		font-size: 24px;
+	}
+	.footer__copyright {
+		font-size: 14px;
+		margin-top: 48px;
+	}
+}
+
+/* adaptive 320px */
+@media screen and (max-width: 320px) {
+	.header__wrapper {
+		width: 288px;
+	}
+	.header__logo {
+		width: 142px;
+		height: 42px;
+	}
+	.header__lang {
+		font-size: 18px;
+	}
+	.lead {
+		width: 320px;
+	}
+	.title {
+		width: 288px;
+		font-size: 40px;
+	}
+	.subtitle {
+		width: 288px;
+		font-size: 16px;
+		margin: 8px auto 32px auto;
+	}
+	.img__girl-in-train {
+		width: 320px;
+		height: 211px;
+	}
+	.lead__udner-text {
+		margin-left: 16px;
+	}
+	.intro {
+		width: 288px;
+		padding-top: 67px;
+	}
+	.intro__title {
+		width: 288px;
+		font-size: 32px;
+	}
+	.intro__subtitle {
+		width: 288px;
+		padding: 23px 0;
+	}
+	.intro__text__wrapper {
+		width: 288px;
+	}
+	.intro__text {
+		width: 288px;
+		font-size: 18px;
+	}
+	.content__row {
+		display: table;
+		width: 288px;
+	}
+	.intro__text-right__up {
+		margin-top: 24px;
+	}
+	.intro__info {
+		padding-top: 24px;
+		font-size: 12px;
+	}
+	.photo__grid {
+		grid-template-columns: 288px;
+		margin: 64px auto;
+		width: 288px;
+		gap: 8px;
+	}
+	.grid__img {
+		width: 288px;
+		height: 192px;
+	}
+	.places {
+		width: 320px;
+	}
+	.place {
+		margin-top: 48px;
+	}
+	.place__header {
+		display: table;
+	}
+	.places__title {
+		width: 288px;
+		font-size: 32px;
+		line-height: 108.92%;
+		margin: 0 16px 16px 16px;
+	}
+	.place__url-wrapper {
+		margin: 0 16px 32px 16px;
+	}
+	.place__url {
+		margin-top: 8px;
+	}
+	.place__image {
+		width: 320px;
+		height: 320px;
+	}
+	.place__info {
+		display: table;
+	}
+	.place__info p {
+		margin: 0 auto;
+	}
+	.place__info-text {
+		font-size: 18px;
+		width: 288px;
+		margin: 24px auto 0 auto;
+	}
+	.video {
+		width: 288px;
+	}
+	.video__title-content {
+		font-size: 32px;
+		width: 288px;
+	}
+	.video__subtitle-content {
+		font-size: 16px;
+		width: 288px;
+		margin: 16px 0 32px 0;
+	}
+	.video__content {
+		width: 288px;
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+	}
+	.video__player-img {
+		width: 288px;
+		height: 192px;
+	}
+	.video__button {
+		margin: 16px 0 0 16px;
+	}
+	.duration {
+		margin: 82px 0 0 16px;
+	}
+	.video__title {
+		width: 256px;
+		font-size: 24px;
+		margin: 102px 0 0 24px;
+	}
+	.video__subtitle {
+		font-size: 14px;
+		margin: 160px 0 0 24px;
+	}
+	.additional {
+		width: 288px;
+		margin: 64px auto 64px auto;
+	}
+	.additional__title {
+		width: 288px;
+		font-size: 32px;
+		margin: 0 auto;
+	}
+	.additional__subtitle {
+		width: 288px;
+		font-size: 16px;
+		margin: 16px 0 56px 0;
+	}
+	.additional__row {
+		grid-template-columns: 284px;
+		gap: 24px;
+	}
+	.additional__card-title {
+		width: 248px;
+		font-size: 24px;
+		margin: 30px 18px 0 18px;
+	}
+	.additional__card-text {
+		width: 248px;
+		margin: 226px 18px 30px 18px;
+	}
+	.additional__img {
+		width: 284px;
+		height: 330px;
+	}
+	.comments__title {
+		margin: 0 auto;
+		width: 288px;
+		font-size: 32px;
+		line-height: 108.92%;
+	}
+	.comments__subtitle {
+		width: 288px;
+		font-size: 16px;
+		margin: 16px auto 42px auto;
+	}
+	.comments__container {
+		width: 288px;
+		display: flex;
+		flex-direction: column;
+		gap: 6px;
+	}
+	.comment {
+		width: 288px;
+	}
+	.comment__ava {
+		display: flex;
+		margin: 0 auto;
+	}
+	.quote {
+		width: 288px;
+		margin: 0 auto;
+	}
+	.quote__author {
+		display: flex;
+		justify-content: center;
+	}
+	.cover {
+		width: 320px;
+		height: 216px;
+	}
+	.img__to-Baikal {
+		width: 320px;
+		height: 216px;
+	}
+	.cover__title {
+		width: 288px;
+		margin-top: 63px;
+		font-size: 32px;
+	}
+	.cover__subtitle {
+		width: 288px;
+		margin-top: 143px;
+		font-size: 14px;
+	}
+	.emblem__wrapper {
+		width: 288px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.emblem__title {
+		margin: 0 0 16px 0;
+		text-align: center;
+		word-wrap: break-word;
+		width: 288px;
+		font-size: 24px;
+		justify-content: center;
+	}
+	.emblem__container {
+		display: grid;
+		grid-template-columns: 186px;
+		gap: 56px;
+		margin: 0 auto;
+	}
+	.emblem__img {
+		width: 186px;
+		height: 226px;
+	}
+	.barentsburg {
+		width: 320px;
+	}
+	.barentsburg__title {
+		width: 288px;
+		font-size: 24px;
+		margin-left: 16px;
+	}
+	.barentsburg__subtitle {
+		width: 288px;
+		font-size: 16px;
+		margin-left: 16px;
+	}
+	.map {
+		width: 320px;
+		height: 184px;
+	}
+	.barentsburg__under-container {
+		display: flex;
+		flex-direction: column;
+		margin: 24px 16px 0 16px;
+	}
+	.barentsburg__website {
+		margin: 0;
+	}
+	.barentsburg__url-header {
+		margin-top: 32px;
+		width: 288px;
+		font-size: 12px;
+	}
+	.barentsburg__url {
+		width: 343px;
+		font-size: 18px;
+	}
+	.barentsburg__text {
+		width: 288px;
 		font-size: 18px;
 	}
 	.footer {
